@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Family Book</title>
+  </head>
+  <body>
+    <p id="firstp">
+      Family Book 📕</p> 
+    
+    
+     
+      
+    
+    <img id="monkey" src="https://images-na.ssl-images-amazon.com/images/I/61zTGIEvQoL.jpg">
+     <button type="button" onclick="nextslide()">
+     Next
+     </button>    
+  </body>
+</html>
+<script>
+var images=[
+ "https://graphicriver.img.customer.envatousercontent.com/files/301807601/preview_image.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=18fc17bb213c0ed7d66d4271ee4245b9","https://t3.ftcdn.net/jpg/02/59/80/56/360_F_259805610_zwLLYPs35RoaiaDESXJ2DCviM9yCbmJR.jpg","https://t4.ftcdn.net/jpg/01/38/71/15/360_F_138711505_K9YfscnIghBdBE1MvQbgUGixdRNKEg2P.jpg","https://i.pinimg.com/originals/01/9b/90/019b90b5f8f04e00e0c7b104da92a67a.jpg","https://i.kym-cdn.com/photos/images/newsfeed/001/370/795/761.jpg","https://i.pinimg.com/736x/77/d4/15/77d41520a3f07995b184797a3734bf44.jpg"
+  
+];
+
+var i=0;
+function nextslide(){
+  document.getElementById("monkey").src=images[i];
+  i++;
+}
+
+</script>
